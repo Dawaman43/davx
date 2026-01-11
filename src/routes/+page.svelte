@@ -1,2 +1,4 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<main class="flex flex-col items-center justify-center w-screen h-screen">
+	<h1 class="from-neutral-900 text-7xl font-bold font-telma">Hello World</h1>
+	<p class="from-neutral-800 font-clash font-semibold">This is my svelte starter kit</p>
+</main>
