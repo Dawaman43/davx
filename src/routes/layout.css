@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+@import './fonts.css';
+
+@theme {
+    --font-britney: 'Britney', ui-sans-serif, system-ui, sans-serif;
+    --font-cabinet: 'CabinetGrotesk', ui-sans-serif, system-ui, sans-serif;
+    --font-chillax: 'Chillax', ui-sans-serif, system-ui, sans-serif;
+    --font-clash: 'ClashDisplay', ui-sans-serif, system-ui, sans-serif;
+    --font-melodrama: 'Melodrama', ui-serif, Georgia, serif;
+    --font-nippo: 'Nippo', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    --font-outfit: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+    --font-panchang: 'Panchang', ui-sans-serif, system-ui, sans-serif;
+    --font-poppins: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+    --font-satoshi: 'Satoshi', ui-sans-serif, system-ui, sans-serif;
+    --font-sentient: 'Sentient', ui-serif, Georgia, serif;
+    --font-supreme: 'Supreme', ui-sans-serif, system-ui, sans-serif;
+    --font-technor: 'Technor', ui-sans-serif, system-ui, sans-serif;
+    --font-teko: 'Teko', ui-sans-serif, system-ui, sans-serif;
+    --font-telma: 'Telma', ui-sans-serif, system-ui, sans-serif;
+
+    /* Default Tailwind family (used by `font-sans`) */
+    --font-sans: var(--font-poppins);
+}
+
+@layer base {
+    body {
+        font-family: var(--font-sans);
+    }
+}
